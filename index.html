@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="libs/leaflet/leaflet.css"/>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <script src="libs/leaflet/leaflet.js" defer></script>
+    <script src="js/util.js" defer></script>
+    <script src="js/map.js" defer></script>
+    <script src="js/list.js" defer></script>
+    <script src="js/data.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <title>Gurtam's task</title>
+  </head>
+  <body>
+    <div id="car-filter">
+      <input  type="text" id="searchField" placeholder="Enter car's name"
+      disabled= "true" onchange="searchCar(this.value)">
+      <div id="cars"></div>
+    </div>
+    <div id="mapid"></div>
+  </body>
+</html>
